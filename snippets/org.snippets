@@ -1,0 +1,16 @@
+# Personal Export Options
+snippet export
+	#+TITLE:	${1:Org Document Title}
+	#+TITLE:	${2:Tianyun Shan}
+	#+EMAIL:	${3:shan199105@gmail.com}
+	#+DATE:		`strftime("%Y-%m-%d")`
+	#+OPTIONS: H:${4:2}
+	#+OPTIONS: toc:${5:2}
+	#+OPTIONS: TeX:f
+	#+OPTIONS: LaTeX:t
+	#+OPTIONS: ^:{}
+snippet code
+	#SourceFile: ${1:example.cc}
+	#+BEGIN_SRC ${2:c++}
+	${3}
+	#+END_SRC
